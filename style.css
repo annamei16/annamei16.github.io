@@ -1,0 +1,148 @@
+/*reset*/
+body, h1, h2, h3, p, ul, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(14, 14, 14);
+}
+
+header {
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    padding: 10px; 
+    border-bottom: 1px solid white;
+}
+
+    nav li a {
+        display: inline-block;
+        width: auto; 
+        height: auto;
+        padding-left: 16px;
+        font-size: 1em; 
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        }
+
+    nav li a:hover {
+        color: #d16eff;
+        }
+        
+    nav li a:active {
+        color: #d16eff;
+        }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+              
+h1, h2, h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+footer, p, a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+a:hover {
+    color: #d16eff;
+    }
+
+.floatleft {
+    float: left; 
+}
+
+.floatright {
+    float: right;
+}
+
+.purple {
+    color: #d16eff; 
+}
+
+.leftblock {
+    width: 60%;
+    height: auto;
+}
+
+.headinglink {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.atypicover {
+    width: 400px;
+    height: 500px;
+}
+
+.baldwincover {
+    width: 400px;
+    height: 400px; 
+}
+
+.elementscover {
+    width: 400px;
+    height: 640px; 
+}
+
+.imgA {
+    width: 600px;
+    height: 375px;
+}
+
+.imgB {
+    width: 600px;
+    height: 300px;
+}
+
+.imgC {
+    width: 600px;
+    height: 480px;
+}
+
+#centeralign {
+    text-align: center;
+}
